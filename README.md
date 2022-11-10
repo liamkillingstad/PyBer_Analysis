@@ -50,9 +50,25 @@ Software:
 ## Results 
 From the table *The Summary Data Frame per City Type* we can see the results of the analysis and how city type (rural, urban, or suburban) impacted the total value of fees collected.
 
+*Total Fare by City Type*
+From the summary DataFrame, the data was pivoted into a new DataFrame, and then grouped by weeks to show the total fares by city type.
+
 <p align="center">     
-<img src="Analysis/TheSummaryDataFrame.PNG" width="80%" height="80%">
+<img src=https://github.com/liamkillingstad/PyBer_Analysis/blob/main/Resources/PyBer_fare_summary.png>
 </p>
 
-## Summary
+*Some initial observations:*
+
+- All three city types start to rise to a peak at the end for February. For the Urban city type, that oscillating peak lasts through April, while the other city types wane in the month of March.
+- The Rural city type increases again leading into the month of April. The Suburban city type starts to peak again at the end of April, while the Rural city type drops off.
+- For the total number of drivers, the disparity between urban and suburban cities is ~5x higher for urban and ~31x higher for urban versus rural cities. 
+- The total number of rides for urban versus rural cities was ~13x higher while the difference between urban and suburban was only ~2x. 
+- Urban cities have the highest total fares ranging from $1,600 per week to $2,500 per week.
+- Rural cities have the lowest total fares ranging from $250 per week to $500 per week.
+- All cities have pretty steady flow of total fares from week to week with a matching spike in the third week in February.
+
+Overall, there seem to be significant disparaties between the amount and fee strcuture for riders in rural versus urban areas. When it comes to the differences between suburban and rural and suburban and urban areas, however, there seems to be a relatively constant "magnitude" of difference between the various tracked variables (i.e. number of rides, number or drivers, and fares).
+
+## Summary & Recommendation
+
 
