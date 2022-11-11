@@ -48,9 +48,8 @@ Software:
 ## Results 
 From the table *The Summary Data Frame per City Type* we can see the results of the analysis and how city type (rural, urban, or suburban) impacted the the total amount of rides, drivers and fares from January to early May of 2019.
 
-*INSERT TABLE*
-
-*INSERT COMMENT*
+<p align="center">     
+<img src=https://github.com/liamkillingstad/PyBer_Analysis/blob/main/PyBear_Chart.png>
 
 *Total Fare by City Type*
 From the summary DataFrame, the data was pivoted into a new DataFrame, and then grouped by weeks to show the total fares by city type.
@@ -72,13 +71,14 @@ From the summary DataFrame, the data was pivoted into a new DataFrame, and then 
 Overall, there seem to be significant disparaties between the amount and fee strcuture for riders in rural versus urban areas. When it comes to the differences between suburban and rural and suburban and urban areas, however, there seems to be a relatively constant "magnitude" of difference between the various tracked variables (i.e. number of rides, number or drivers, and fares).
 
 ## Summary & Recommendation
-Urban cities clearly see the most traffic and the highest associated fees. The results generated in the summary DataFrame could be due to Urban city types being more centralized, yielding a lower average fare per ride, while Rural city types are more spread out, which would collect a higher average fare per ride but lower total revenues. One interesting way to test this hypothesis would be to have PyBer work to include mileage distance data as part of the data collection process and analysis.
+Urban cities clearly see the most traffic and the highest associated fees. But why?
 
-Because there are more total drivers than total rides in the Urban city types, Urban drivers may not have enough work to support themselves. PyBer may want to consider investing advertising dollars in the Urban city types to increase the total rides or risk losing Urban drivers.
+There are several potential reasons for the disparaties. The results that were generated in the summary DataFrame could be due to Urban city types being more centralized, yielding a lower average fare per ride, while Rural city types are more spread out, which would collect a higher average fare per ride but lower total revenues (due to less total rides). One interesting way to test this hypothesis would be to have PyBer work to include mileage distance data as part of the data collection process and analysis.
 
-One solution could be to invest in the exsiting driver base. If PyBer were to invest into advertising dollars in the Urban city type, the next question is when would ads be the most effective? After reviewing the Total Fare by City Tpye graph, the end of February kicks off the increase in total fares and would be a good time to launch an advertising campaign, which would also strategically help the other two city types.
+Because there are more total drivers than total rides in the Urban city types, Urban drivers may not have enough work to support themselves -- an imbalance between supply and demand. In order to combat the fractured masrket, PyBer could consider investing advertising dollars in the Urban city types to increase the total rides or risk losing Urban drivers. Another idea would be to include a referal program to increase the total rider base. 
 
-There is a matching peak in third week in February for each city type. Based on this information I would suggest to research this peak in more detail that can help determine what caused the jump. Therefore, the analsis can be used as a business strategy in the future. For example, if the total amount of fares were increased due to certain event, PyBer could use future events for promotion of their services.
+If PyBer were to invest in advertising or referral programs in the Urban cities, a subsequent question would be what type of ads would be the most effective and when to run them. After reviewing the Total Fare by City Tpye graph, the end of February kicks off the increase in total fares and would be a good time to launch an advertising or refferal campaign. The idea of referral and adverstising campaigns could be equally beneficial to all city types.
 
-Urban cities have the highest ride and driver count and the lowest average fare per driver, that is $16.57. I would suggest deeper research on this area by finding out what is the employee satisfaction rate and the company profit on this number (total fare amount is $39,854.38). If employee rate is high and PyBer is profitable, that would indicate a good bussiness strategy for urban cities. In addition, I would suggest to take a closer look into the peaks and dips that appear from late February to early April in order to find out what is causing them. This could reveal important information for future business planning.
+While we have identifed the spike in rides in the third week of Februrary, we do not have a good indication for why this is the case. Based on this information, I would suggest researching this specific spike in activity particularly if we plan to build an advertising strategy around that time period. If the reason for the increased traffic is systemic and/or repeatable, it might be prudent to structure certain events, promotions, or deals around that specific event.
 
+Lastly, Urban cities have the highest ride and driver count and the lowest average fare per driver. I would suggest deeper research to determine if there was a quick fix to generating higher revenues per ride. A way to determine this would be through customer satisfaction ratings and driver ratings. If an  employee rate is high there is likely an ability to charge higher prices and increase total revenue.
